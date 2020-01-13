@@ -57,8 +57,10 @@ links[3].textContent = "Features";
 links[4].textContent = "About";
 links[5].textContent = "Contact";
 
-links.forEach(newColor => newColor.style.color = "green")
+links.forEach(newColor => newColor.style.color = "green");
 
 //Header
-const header = document.getElementsByClassName('cta-text')
-header.textContent = "DOM IS AWESOME"
+const header = document.querySelector('.cta-text');
+header.textContent = "DOM IS AWESOME";
+
+const prettybutton = document.querySelector()
