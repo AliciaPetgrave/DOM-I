@@ -55,7 +55,6 @@ links[1].textContent = "Product";
 links[2].textContent = "Vision";
 links[3].textContent = "Features";
 links[4].textContent = "About";
-links[5].textContent = "Contact";
 
 links.forEach(newColor => newColor.style.color = "green");
 
@@ -73,5 +72,31 @@ header.textContent = "DOM IS AWESOME";
 const prettybutton = document.querySelector('button');
 prettybutton.textContent = 'Get Started';
 
+//Paragraphs
+const features = document.querySelectorAll('h4');
+features[0].textContent = "Features";
+features[1].textContent = "About";
+features[2].textContent = "Services";
+features[3].textContent = "Product";
+features[4].textContent = "Vision";
+features[5].textContent = "Contact"
 
+const parag = document.querySelectorAll('p');
+parag[0].textContent = "Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+parag[1].textContent = "About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+parag[2].textContent = "Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+parag[3].textContent = "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+parag[4].textContent = "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
 
+//Contact
+const contactInfo = document.querySelector('.contact')
+contactInfo.textContact = 'Contact'
+
+const contactInfoTwo = document.querySelectorAll('.contact p')
+contactInfoTwo[0].textContent = "123 Way 456 Street Somewhere, USA"
+contactInfoTwo[1].textContent = "1 (888) 888-8888"
+contactInfoTwo[2].textContent = "sales@greatidea.io"
+
+//Footer
+const copyright = document.querySelector('footer')
+copyright.textContent = "Copyright Great Idea! 2018"
