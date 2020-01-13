@@ -59,8 +59,19 @@ links[5].textContent = "Contact";
 
 links.forEach(newColor => newColor.style.color = "green");
 
+// New Links
+// const newLink = document.createElement('a')
+// newLink.textContent = "it"
+
+// const newLinkTwo = document
+
 //Header
-const header = document.querySelector('.cta-text');
+const header = document.querySelector('h1');
 header.textContent = "DOM IS AWESOME";
 
-const prettybutton = document.querySelector()
+//Button
+const prettybutton = document.querySelector('button');
+prettybutton.textContent = 'Get Started';
+
+
+
