@@ -55,14 +55,24 @@ links[1].textContent = "Product";
 links[2].textContent = "Vision";
 links[3].textContent = "Features";
 links[4].textContent = "About";
+links[5].textContent = "Contact";
 
-links.forEach(newColor => newColor.style.color = "green");
 
 // New Links
-// const newLink = document.createElement('a')
-// newLink.textContent = "it"
+const newLink = document.querySelector('nav');
+const first = document.createElement('a')
+first.textContent = "Hello"
+newLink.prepend(first);
 
-// const newLinkTwo = document
+const anotherLink = document.querySelector('nav');
+const second = document.createElement('a')
+second.textContent = "Goodbye"
+newLink.appendChild(second);
+
+//Link Color
+const navLinkColor = document.querySelectorAll('a');
+navLinkColor.forEach(newColor => newColor.style.color = 'green');
+
 
 //Header
 const header = document.querySelector('h1');
@@ -89,14 +99,14 @@ parag[3].textContent = "Product content elementum magna eros, ac posuere elvit t
 parag[4].textContent = "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
 
 //Contact
-const contactInfo = document.querySelector('.contact')
-contactInfo.textContact = 'Contact'
+const contactInfo = document.querySelector('.contact');
+contactInfo.textContact = 'Contact';
 
-const contactInfoTwo = document.querySelectorAll('.contact p')
-contactInfoTwo[0].textContent = "123 Way 456 Street Somewhere, USA"
-contactInfoTwo[1].textContent = "1 (888) 888-8888"
-contactInfoTwo[2].textContent = "sales@greatidea.io"
+const contactInfoTwo = document.querySelectorAll('.contact p');
+contactInfoTwo[0].textContent = "123 Way 456 Street Somewhere, USA";
+contactInfoTwo[1].textContent = "1 (888) 888-8888";
+contactInfoTwo[2].textContent = "sales@greatidea.io";
 
 //Footer
-const copyright = document.querySelector('footer')
-copyright.textContent = "Copyright Great Idea! 2018"
+const copyright = document.querySelector('footer');
+copyright.textContent = "Copyright Great Idea! 2018";
